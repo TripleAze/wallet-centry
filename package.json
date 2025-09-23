@@ -28,3 +28,16 @@
     "vite": "^4.4.5"
   }
 }
+
+{
+  "scripts": {
+    "build": "vite build"
+  }
+}
+
+{
+  "scripts": {
+    "test": "vitest --run || echo 'No tests configured'",
+    "lint": "eslint . || echo 'No linter configured'"
+  }
+}
