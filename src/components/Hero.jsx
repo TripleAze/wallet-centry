@@ -24,7 +24,7 @@ function Hero() {
               your financial goals. Start budgeting smarter today.
             </p>
             <div className="flex flex-nowrap gap-8 md:gap-10 mt-12 items-center">
-              <button className="flex-shrink-0 w-[160px] h-[48px] rounded-lg bg-white text-primary text-white font-primary font-normal">
+              <button className="flex-shrink-0 w-[160px] h-[48px] rounded-lg bg-primary text-white font-primary font-normal">
                 Download Now
               </button>
               <button className="flex-shrink-0 w-[160px] h-[48px] rounded-lg bg-none text-white font-primary font-normal flex items-center">
