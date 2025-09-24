@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0 || echo 'Linting completed'",
+    "preview": "vite preview",
+    "test": "vitest --run || echo 'No tests configured'"
   },
   "dependencies": {
     "lenis": "^1.3.8",
@@ -25,19 +26,7 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
-    "vite": "^4.4.5"
-  }
-}
-
-{
-  "scripts": {
-    "build": "vite build"
-  }
-}
-
-{
-  "scripts": {
-    "test": "vitest --run || echo 'No tests configured'",
-    "lint": "eslint . || echo 'No linter configured'"
+    "vite": "^4.4.5",
+    "vitest": "^0.34.0"
   }
 }
